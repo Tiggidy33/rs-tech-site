@@ -1,0 +1,63 @@
+<section id="contact">
+  <h2>Contact R & S Technologies</h2>
+  <p><strong>Owner:</strong> Tyson Joseph</p>
+  <p><strong>Phone:</strong> 757-977-4364</p>
+  <p><strong>Email:</strong> tysondjoseph@icloud.com</p>
+  <p><strong>Business Hours:</strong> Upon Request and Availability</p>
+  <p><strong>Service Area:</strong> Hampton Roads / Williamsburg</p>
+  <p><strong>Response Time:</strong> Within 24 Hours</p>
+  <p>If you are experiencing a technical issue, please complete the support request form below.</p>
+</section>
+
+<section id="support-ticket">
+  <h2>Submit a Support Ticket</h2>
+
+  <form id="ticketForm">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="device">Device Type</label>
+    <select id="device" name="device" required>
+      <option value="">Select a device</option>
+      <option value="Phone">Phone</option>
+      <option value="Laptop">Laptop</option>
+      <option value="Desktop">Desktop</option>
+      <option value="Printer">Printer</option>
+      <option value="Scanner">Scanner</option>
+    </select>
+
+    <label for="priority">Priority Level</label>
+    <select id="priority" name="priority" required>
+      <option value="">Select priority</option>
+      <option value="Low">Low</option>
+      <option value="High">High</option>
+    </select>
+
+    <label for="category">Issue Category</label>
+    <select id="category" name="category" required>
+      <option value="">Select issue category</option>
+      <option value="Networking Issue">Networking Issue</option>
+      <option value="Software Issue">Software Issue</option>
+      <option value="Hardware Issue">Hardware Issue</option>
+      <option value="Printer / Scanner Issue">Printer / Scanner Issue</option>
+      <option value="Email / Account Access">Email / Account Access</option>
+      <option value="Security Concern">Security Concern</option>
+      <option value="Setup / Installation">Setup / Installation</option>
+      <option value="General Support">General Support</option>
+    </select>
+
+    <label for="file">Upload Picture of Issue</label>
+    <input type="file" id="file" name="file" accept="image/*">
+
+    <label for="notes">Additional Notes</label>
+    <textarea id="notes" name="notes" rows="6" placeholder="Please describe the problem in as much detail as possible."></textarea>
+
+    <button type="submit">Submit Ticket</button>
+  </form>
+</section>
