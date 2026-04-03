@@ -95,6 +95,50 @@
 <footer>
     <p>&copy; 2026 R & S Technologies. All rights reserved.</p>
 </footer>
+</footer>
+
+<script>
+document.getElementById('ticketForm').addEventListener('submit', async function (e) {
+  e.preventDefault();
+
+  const form = e.target;
+  const formData = new FormData(form);
+
+  const data = {
+    name: formData.get('name'),
+    phone: formData.get('phone'),
+    email: formData.get('email'),
+    device: formData.get('device'),
+    priority: formData.get('priority'),
+    category: formData.get('category'),
+    notes: formData.get('notes')
+  };
+
+  try {
+    const response = await fetch('/api/ticket', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    });
+
+    const result = await response.json();
+
+    if (response.ok) {
+      alert('Your support ticket was submitted successfully. Please check your email for confirmation.');
+      form.reset();
+    } else {
+      alert('There was a problem submitting your ticket. Please try again.');
+      console.error(result);
+    }
+  } catch (error) {
+    alert('There was a problem submitting your ticket. Please try again.');
+    console.error(error);
+  }
+});
+</script>
+
 
 </body>
 </html>
