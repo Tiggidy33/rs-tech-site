@@ -1,0 +1,4275 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "XgGN3",
+      "x": 900,
+      "y": 0,
+      "name": "Help Desk Page",
+      "width": 1280,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "PKgqe",
+          "name": "nav",
+          "width": "fill_container",
+          "fill": "$surface-dark",
+          "padding": [
+            16,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "vXXeK",
+              "name": "navLogo",
+              "fill": "$foreground-inverse",
+              "content": "R & S TECHNOLOGIES",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "o4Z9d",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JWON7",
+                  "fill": "#999999FF",
+                  "content": "Home",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "LAbRc",
+                  "fill": "#999999FF",
+                  "content": "Services",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "ooEQq",
+                  "fill": "#999999FF",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "aqIPA",
+                  "fill": "#999999FF",
+                  "content": "FAQ",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "iL6d9",
+                  "fill": "#999999FF",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "FjTmg",
+                  "fill": "$foreground-inverse",
+                  "content": "Ticket Desk",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "9d9x1",
+          "name": "hero",
+          "width": "fill_container",
+          "height": 520,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1775526672096.png",
+            "mode": "fill"
+          },
+          "layout": "vertical",
+          "padding": [
+            48,
+            64,
+            64,
+            64
+          ],
+          "justifyContent": "end",
+          "children": [
+            {
+              "type": "frame",
+              "id": "8GE1h",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "heroOverlay",
+              "width": 1280,
+              "height": 520,
+              "fill": "#00000088",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                0,
+                80
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sePmj",
+                  "name": "heroTitle",
+                  "fill": "$foreground-inverse",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "NEED TECHNICAL HELP?",
+                  "lineHeight": 0.95,
+                  "textAlign": "center",
+                  "fontFamily": "Anton",
+                  "fontSize": 96
+                },
+                {
+                  "type": "text",
+                  "id": "EZdYQ",
+                  "name": "heroSub",
+                  "fill": "#CCCCCCFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Submit a support request and our team will get back to you promptly.",
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nNjBg",
+          "name": "howSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            80,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SQR8F",
+              "name": "howTitle",
+              "fill": "$foreground-primary",
+              "content": "HOW IT WORKS",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 64
+            },
+            {
+              "type": "frame",
+              "id": "0BJK5",
+              "name": "howSteps",
+              "width": "fill_container",
+              "gap": 48,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WGecA",
+                  "name": "step1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fGK3y",
+                      "fill": "$foreground-muted",
+                      "content": "01",
+                      "fontFamily": "Anton",
+                      "fontSize": 48,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Fot1O",
+                      "fill": "$foreground-primary",
+                      "content": "SUBMIT YOUR REQUEST",
+                      "textAlign": "center",
+                      "fontFamily": "Anton",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CRh9u",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Fill out the form below with details about your issue or question.",
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5KgRr",
+                  "name": "step2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Rb2zW",
+                      "fill": "$foreground-muted",
+                      "content": "02",
+                      "fontFamily": "Anton",
+                      "fontSize": 48,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sML8f",
+                      "fill": "$foreground-primary",
+                      "content": "WE REVIEW & RESPOND",
+                      "textAlign": "center",
+                      "fontFamily": "Anton",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "czNcn",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Our technical team reviews your request and responds within 24 hours.",
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IcDwy",
+                  "name": "step3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "a9SeV",
+                      "fill": "$foreground-muted",
+                      "content": "03",
+                      "fontFamily": "Anton",
+                      "fontSize": 48,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "43or4",
+                      "fill": "$foreground-primary",
+                      "content": "ISSUE RESOLVED",
+                      "textAlign": "center",
+                      "fontFamily": "Anton",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M3yCr",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We work with you until the problem is fully resolved and confirmed.",
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "j8oxH",
+          "name": "formSection",
+          "width": "fill_container",
+          "fill": "$surface-card",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "071WH",
+              "name": "formTitle",
+              "fill": "$foreground-primary",
+              "content": "SUBMIT A REQUEST",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 64
+            },
+            {
+              "type": "frame",
+              "id": "pjoyB",
+              "name": "formWrap",
+              "width": 640,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jJVHO",
+                  "name": "nameField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Yxdvl",
+                      "fill": "$foreground-secondary",
+                      "content": "NAME",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZWg9v",
+                      "name": "nameInput",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": "$surface-white",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border-color"
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OQgRP",
+                          "fill": "$foreground-muted",
+                          "content": "Your full name",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hs3sh",
+                  "name": "row1",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AINMz",
+                      "name": "emailField",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YUSQA",
+                          "fill": "$foreground-secondary",
+                          "content": "EMAIL",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JSwpX",
+                          "name": "emailInput",
+                          "width": "fill_container",
+                          "height": 48,
+                          "fill": "$surface-white",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$border-color"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "UyXYx",
+                              "fill": "$foreground-muted",
+                              "content": "you@example.com",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lIuZo",
+                      "name": "phoneField",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "o0Gf5",
+                          "fill": "$foreground-secondary",
+                          "content": "PHONE",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MWM54",
+                          "name": "phoneInput",
+                          "width": "fill_container",
+                          "height": 48,
+                          "fill": "$surface-white",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$border-color"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Mj4V4",
+                              "fill": "$foreground-muted",
+                              "content": "(555) 000-0000",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DAf53",
+                  "name": "row2",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dGfSD",
+                      "name": "catField",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "X65Y2",
+                          "fill": "$foreground-secondary",
+                          "content": "CATEGORY",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Vz7FR",
+                          "name": "catInput",
+                          "width": "fill_container",
+                          "height": 48,
+                          "fill": "$surface-white",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$border-color"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yrKNF",
+                              "fill": "$foreground-muted",
+                              "content": "Select category",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OPdGs",
+                              "fill": "$foreground-muted",
+                              "content": "▼",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PyhKS",
+                      "name": "prioField",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K8OTY",
+                          "fill": "$foreground-secondary",
+                          "content": "PRIORITY",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vJiGQ",
+                          "name": "prioInput",
+                          "width": "fill_container",
+                          "height": 48,
+                          "fill": "$surface-white",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$border-color"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mltED",
+                              "fill": "$foreground-muted",
+                              "content": "Select priority",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "dQYPu",
+                              "fill": "$foreground-muted",
+                              "content": "▼",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h1w4e",
+                  "name": "sumField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hj8N2",
+                      "fill": "$foreground-secondary",
+                      "content": "SUMMARY",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "O2j7I",
+                      "name": "sumInput",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": "$surface-white",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border-color"
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "2I9ty",
+                          "fill": "$foreground-muted",
+                          "content": "Brief summary of your issue",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HqjeV",
+                  "name": "descField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Lfnbo",
+                      "fill": "$foreground-secondary",
+                      "content": "DESCRIPTION",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iMcAb",
+                      "name": "descInput",
+                      "width": "fill_container",
+                      "height": 140,
+                      "fill": "$surface-white",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border-color"
+                      },
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tazJ9",
+                          "fill": "$foreground-muted",
+                          "content": "Describe your issue in detail...",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Vt7yo",
+                  "name": "submitBtn",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$surface-dark",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "h7Wdu",
+                      "fill": "$foreground-inverse",
+                      "content": "SUBMIT REQUEST",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zEVnt",
+          "name": "footer",
+          "width": "fill_container",
+          "fill": "$surface-dark",
+          "padding": [
+            24,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "8Y6Mf",
+              "fill": "$foreground-muted",
+              "content": "© 2026 R & S Technologies",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "1y4e4",
+      "x": 2300,
+      "y": 0,
+      "name": "Home Page",
+      "width": 1280,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "1mwD6",
+          "name": "nav",
+          "width": "fill_container",
+          "fill": "$surface-dark",
+          "padding": [
+            16,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ICsZO",
+              "name": "navLogo",
+              "fill": "$foreground-inverse",
+              "content": "R & S TECHNOLOGIES",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "OD8TN",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JDWR2",
+                  "name": "navHome",
+                  "fill": "$foreground-inverse",
+                  "content": "Home",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "ikpCl",
+                  "name": "navServices",
+                  "fill": "#999999FF",
+                  "content": "Services",
+                  "fontFamily": "Inter",
+                  "fontSize": 13
+                },
+                {
+                  "type": "text",
+                  "id": "958fN",
+                  "name": "navAbout",
+                  "fill": "#999999FF",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 13
+                },
+                {
+                  "type": "text",
+                  "id": "1AuKM",
+                  "name": "navFaq",
+                  "fill": "#999999FF",
+                  "content": "FAQ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13
+                },
+                {
+                  "type": "text",
+                  "id": "FFHit",
+                  "name": "navContact",
+                  "fill": "#999999FF",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 13
+                },
+                {
+                  "type": "text",
+                  "id": "wBncN",
+                  "name": "navTicket",
+                  "fill": "#999999FF",
+                  "content": "Ticket Desk",
+                  "fontFamily": "Inter",
+                  "fontSize": 13
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZWVMN",
+          "name": "hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 600,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1775526670739.png",
+            "mode": "fill"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            64,
+            80
+          ],
+          "justifyContent": "end",
+          "children": [
+            {
+              "type": "text",
+              "id": "3tdAj",
+              "name": "heroHeadline",
+              "fill": "$foreground-inverse",
+              "content": "RELIABLE IT SUPPORT",
+              "lineHeight": 0.9,
+              "fontFamily": "Anton",
+              "fontSize": 120,
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "tevni",
+              "name": "heroSub",
+              "fill": "$foreground-inverse",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "Personalized support to keep your technology clear, secure, and dependable.",
+              "fontFamily": "Geist",
+              "fontSize": 18
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cZChW",
+          "name": "motto",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "padding": [
+            120,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "lDpOK",
+              "name": "mottoText",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "EMPOWERING YOUR\nDIGITAL JOURNEY",
+              "lineHeight": 0.95,
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 96,
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CRuLL",
+          "name": "servicesSection",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "children": [
+            {
+              "type": "text",
+              "id": "wiI33",
+              "name": "servicesLabel",
+              "fill": "$foreground-secondary",
+              "content": "SERVICES",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 3
+            },
+            {
+              "type": "frame",
+              "id": "qhaKk",
+              "name": "servicesGrid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ccxlS",
+                  "name": "row1",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XR2Fo",
+                      "name": "card1",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kGGev",
+                          "name": "card1Title",
+                          "fill": "$foreground-primary",
+                          "content": "HELP DESK SUPPORT",
+                          "fontFamily": "Anton",
+                          "fontSize": 24
+                        },
+                        {
+                          "type": "text",
+                          "id": "uHRf3",
+                          "name": "card1Desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Responsive, friendly assistance for all your day-to-day technology questions and issues.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ETuSH",
+                      "name": "card2",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EMEUb",
+                          "name": "card2Title",
+                          "fill": "$foreground-primary",
+                          "content": "TROUBLESHOOTING",
+                          "fontFamily": "Anton",
+                          "fontSize": 24
+                        },
+                        {
+                          "type": "text",
+                          "id": "2IreP",
+                          "name": "card2Desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Systematic diagnosis and resolution of hardware, software, and network problems.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ut7oQ",
+                      "name": "card3",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MltiF",
+                          "name": "card3Title",
+                          "fill": "$foreground-primary",
+                          "content": "SECURITY SUPPORT",
+                          "fontFamily": "Anton",
+                          "fontSize": 24
+                        },
+                        {
+                          "type": "text",
+                          "id": "XY5Yh",
+                          "name": "card3Desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Proactive protection against threats with antivirus management, updates, and best practices.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C7kbb",
+                  "name": "row2",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lpv8x",
+                      "name": "card4",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mbugf",
+                          "name": "card4Title",
+                          "fill": "$foreground-primary",
+                          "content": "SOFTWARE & HARDWARE",
+                          "fontFamily": "Anton",
+                          "fontSize": 24
+                        },
+                        {
+                          "type": "text",
+                          "id": "cPVqO",
+                          "name": "card4Desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Installation, configuration, and ongoing maintenance of your essential tools and devices.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RSAOX",
+                      "name": "card5",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3hwNZ",
+                          "name": "card5Title",
+                          "fill": "$foreground-primary",
+                          "content": "USER TRAINING",
+                          "fontFamily": "Anton",
+                          "fontSize": 24
+                        },
+                        {
+                          "type": "text",
+                          "id": "Oob4c",
+                          "name": "card5Desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Hands-on guidance to build confidence and competence with the technology you use every day.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NEkkS",
+                      "name": "card6",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5fqzY",
+                          "name": "card6Title",
+                          "fill": "$foreground-primary",
+                          "content": "MICROSOFT 365 & GOOGLE WORKSPACE",
+                          "fontFamily": "Anton",
+                          "fontSize": 24
+                        },
+                        {
+                          "type": "text",
+                          "id": "V6NH7",
+                          "name": "card6Desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Setup, migration, and support for cloud productivity suites your team relies on.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "2ZJ7W",
+          "name": "process",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "children": [
+            {
+              "type": "text",
+              "id": "YWzUz",
+              "name": "processLabel",
+              "fill": "$foreground-secondary",
+              "content": "HOW IT WORKS",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 3
+            },
+            {
+              "type": "frame",
+              "id": "WkaFt",
+              "name": "processRow",
+              "width": "fill_container",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Wn62Q",
+                  "name": "step1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X1jgV",
+                      "name": "step1Num",
+                      "fill": "$foreground-primary",
+                      "content": "01",
+                      "fontFamily": "Anton",
+                      "fontSize": 48
+                    },
+                    {
+                      "type": "text",
+                      "id": "dSdN2",
+                      "name": "step1Title",
+                      "fill": "$foreground-primary",
+                      "content": "REQUEST SUPPORT",
+                      "fontFamily": "Anton",
+                      "fontSize": 22
+                    },
+                    {
+                      "type": "text",
+                      "id": "z2Rur",
+                      "name": "step1Desc",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Reach out via our ticket desk, email, or phone. We respond quickly and personally.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mbrm6",
+                  "name": "step2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Emw3D",
+                      "name": "step2Num",
+                      "fill": "$foreground-primary",
+                      "content": "02",
+                      "fontFamily": "Anton",
+                      "fontSize": 48
+                    },
+                    {
+                      "type": "text",
+                      "id": "EXkdw",
+                      "name": "step2Title",
+                      "fill": "$foreground-primary",
+                      "content": "DIAGNOSE & RESOLVE",
+                      "fontFamily": "Anton",
+                      "fontSize": 22
+                    },
+                    {
+                      "type": "text",
+                      "id": "pJjxR",
+                      "name": "step2Desc",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Our technicians identify the root cause and implement a clear, lasting solution.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ppkoV",
+                  "name": "step3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UGDIy",
+                      "name": "step3Num",
+                      "fill": "$foreground-primary",
+                      "content": "03",
+                      "fontFamily": "Anton",
+                      "fontSize": 48
+                    },
+                    {
+                      "type": "text",
+                      "id": "hIaEx",
+                      "name": "step3Title",
+                      "fill": "$foreground-primary",
+                      "content": "FOLLOW-UP & PREVENTION",
+                      "fontFamily": "Anton",
+                      "fontSize": 22
+                    },
+                    {
+                      "type": "text",
+                      "id": "MMuCP",
+                      "name": "step3Desc",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We check back to ensure everything works and advise on preventing future issues.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OAn0Z",
+          "name": "cta",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Z611O",
+              "name": "ctaHeading",
+              "fill": "$foreground-primary",
+              "content": "CONTACT US TODAY",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 80,
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "hjAI6",
+              "name": "ctaLink",
+              "fill": "$foreground-secondary",
+              "content": "Get in touch →",
+              "fontFamily": "Geist",
+              "fontSize": 16
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "y3ThG",
+          "name": "footer",
+          "width": "fill_container",
+          "fill": "$surface-dark",
+          "padding": [
+            20,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "4FfHq",
+              "name": "footerText",
+              "fill": "#999999FF",
+              "content": "© 2026 R & S Technologies",
+              "fontFamily": "Inter",
+              "fontSize": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "7KxXB",
+      "x": 3700,
+      "y": 0,
+      "name": "About Page",
+      "width": 1280,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "u9p2o",
+          "name": "nav",
+          "width": "fill_container",
+          "fill": "$surface-dark",
+          "padding": [
+            16,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "KfSsA",
+              "name": "navLogo",
+              "fill": "$foreground-inverse",
+              "content": "R & S TECHNOLOGIES",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "nhFuM",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jqvch",
+                  "fill": "$foreground-muted",
+                  "content": "HOME",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "kXIbN",
+                  "fill": "$foreground-inverse",
+                  "content": "ABOUT",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "pokUS",
+                  "fill": "$foreground-muted",
+                  "content": "SERVICES",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "jiING",
+                  "fill": "$foreground-muted",
+                  "content": "FAQ",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "PSQrG",
+                  "fill": "$foreground-muted",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HciAT",
+          "name": "hero",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            120,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "fbkvC",
+              "name": "heroTitle",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ABOUT R & S\nTECHNOLOGIES",
+              "lineHeight": 0.95,
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 96
+            },
+            {
+              "type": "text",
+              "id": "pCqfF",
+              "name": "heroSub",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Customer-first IT support focused on clarity, reliability, and trust.",
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "f4rwF",
+          "name": "intro",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            80,
+            160
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ZReg0",
+              "name": "introHead",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "BUILT AROUND PRACTICAL\nSUPPORT AND TRUST",
+              "lineHeight": 1,
+              "fontFamily": "Anton",
+              "fontSize": 48
+            },
+            {
+              "type": "text",
+              "id": "BdwzX",
+              "name": "introBody",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "R & S Technologies was founded on a simple belief: technology should work for you, not against you. We partner with small businesses and home users to deliver clear, dependable IT support — no jargon, no runaround, just honest solutions that keep you moving forward.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XLkwZ",
+          "name": "blocks",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 80,
+          "padding": [
+            40,
+            160
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "0EMHX",
+              "name": "block1",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PprYI",
+                  "name": "b1label",
+                  "fill": "$foreground-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 200,
+                  "content": "OUR MISSION",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "KT9Vj",
+                  "name": "b1content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Yp0Pj",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Committed to empowering businesses through personalized, proactive solutions that anticipate needs before they become problems.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "voDYj",
+                      "fill": "$foreground-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "EMPOWERING YOUR DIGITAL JOURNEY",
+                      "fontFamily": "Anton",
+                      "fontSize": 32
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "l8cuJ",
+              "name": "block2",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BHg2W",
+                  "name": "b2label",
+                  "fill": "$foreground-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 200,
+                  "content": "OUR VALUES",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "uCKa0",
+                  "name": "b2content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9i7mB",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Reliable support — always available when you need us most",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xVld3",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Security focus — protecting your data and digital assets",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tG4qF",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Personalized service — tailored solutions, never one-size-fits-all",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ttGuP",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "User education — empowering you to understand your technology",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xYswC",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Transparent communication — honest, clear, no surprises",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R1mlc",
+              "name": "block3",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "D0xy2",
+                  "name": "b3label",
+                  "fill": "$foreground-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 200,
+                  "content": "TEAM AND EXPERIENCE",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "5W5pu",
+                  "name": "b3content",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "R & S Technologies specializes in IT support for small businesses and home users. Our team brings hands-on experience across hardware, software, networking, and cybersecurity — with a focus on making complex technology simple and accessible for everyone.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ST6yf",
+              "name": "block4",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tPLgI",
+                  "name": "b4label",
+                  "fill": "$foreground-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 200,
+                  "content": "LOCAL APPROACH",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "lzfNh",
+                  "name": "b4content",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Responsive support that meets you where you are. We offer flexible service options — remote, on-site, or a combination — built around your schedule and needs. Our customer-first process means you always know what's happening, what it costs, and what comes next.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qeDMk",
+          "name": "cta",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            100,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "RX21m",
+              "name": "ctaText",
+              "fill": "$foreground-primary",
+              "content": "EXPLORE OUR SERVICES →",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 48
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nvc4T",
+          "name": "footer",
+          "width": "fill_container",
+          "fill": "$surface-dark",
+          "padding": [
+            20,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "6tpZK",
+              "name": "footerText",
+              "fill": "$foreground-muted",
+              "content": "© 2026 R & S Technologies",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ptLty",
+      "x": 5100,
+      "y": 0,
+      "name": "Services Page",
+      "width": 1280,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "iflZD",
+          "name": "nav",
+          "width": "fill_container",
+          "fill": "$foreground-dark",
+          "padding": [
+            20,
+            60
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "OQYuU",
+              "name": "navLogo",
+              "fill": "$foreground-inverse",
+              "content": "R & S TECHNOLOGIES",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "HMmnY",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u6vlQ",
+                  "name": "navHome",
+                  "fill": "$foreground-muted",
+                  "content": "Home",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "6IM7D",
+                  "name": "navAbout",
+                  "fill": "$foreground-muted",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "gQ8V7",
+                  "name": "navServices",
+                  "fill": "$foreground-inverse",
+                  "content": "Services",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "L2mqj",
+                  "name": "navFaq",
+                  "fill": "$foreground-muted",
+                  "content": "FAQ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "ZmGZJ",
+                  "name": "navContact",
+                  "fill": "$foreground-muted",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DG3nI",
+          "name": "hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            120,
+            60,
+            100,
+            60
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "RdMOs",
+              "name": "heroTitle",
+              "fill": "$foreground-primary",
+              "content": "OUR SERVICES",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 120,
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "idz7S",
+              "name": "heroSub",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Practical support options for homes and small business teams.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 20
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JvW5r",
+          "name": "intro",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "4HTQy",
+              "name": "introLabel",
+              "fill": "$foreground-muted",
+              "content": "WHAT WE DO",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "gc89V",
+              "name": "introTitle",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Simple, dependable support options",
+              "fontFamily": "Anton",
+              "fontSize": 48
+            },
+            {
+              "type": "text",
+              "id": "pdCCS",
+              "name": "introBody",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Our services are designed to keep your systems stable, your data safe, and your team productive. Whether you need ongoing support or a one-time fix, we offer practical solutions without unnecessary complexity.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 17
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hk8Vl",
+          "name": "s1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "3F2Tv",
+              "name": "s1label",
+              "fill": "$foreground-muted",
+              "content": "01",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "Bt4wP",
+              "name": "s1title",
+              "fill": "$foreground-primary",
+              "content": "HELP DESK SUPPORT",
+              "fontFamily": "Anton",
+              "fontSize": 64
+            },
+            {
+              "type": "text",
+              "id": "iexia",
+              "name": "s1desc",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Phone and email support for day-to-day issues. A single point of contact when something goes wrong or you need guidance.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 17
+            },
+            {
+              "type": "frame",
+              "id": "5PiMy",
+              "name": "s1cols",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "D6I9t",
+                  "name": "s1left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lzjNl",
+                      "name": "s1lh",
+                      "fill": "$foreground-muted",
+                      "content": "WHAT YOU GET",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "NEz0S",
+                      "name": "s1lb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Dedicated support line\nEmail ticketing system\nPrioritized response times\nRemote assistance",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s0hy6",
+                  "name": "s1right",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z4hxs",
+                      "name": "s1rh",
+                      "fill": "$foreground-muted",
+                      "content": "COMMON USE CASES",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "N1eK6",
+                      "name": "s1rb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Printer not connecting\nEmail configuration issues\nPassword resets\nSlow computer diagnosis",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UHxuZ",
+          "name": "s2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "MuzA7",
+              "name": "s2label",
+              "fill": "$foreground-muted",
+              "content": "02",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "qhiLf",
+              "name": "s2title",
+              "fill": "$foreground-primary",
+              "content": "TROUBLESHOOTING",
+              "fontFamily": "Anton",
+              "fontSize": 64
+            },
+            {
+              "type": "text",
+              "id": "AI6Ua",
+              "name": "s2desc",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Diagnosis and fixes for hardware and software problems. We identify the root cause and resolve it efficiently.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 17
+            },
+            {
+              "type": "frame",
+              "id": "imXhd",
+              "name": "s2cols",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "g81mB",
+                  "name": "s2left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ij3Ha",
+                      "name": "s2lh",
+                      "fill": "$foreground-muted",
+                      "content": "WHAT YOU GET",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "hBIJ1",
+                      "name": "s2lb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Remote and on-site diagnosis\nHardware fault identification\nSoftware conflict resolution\nPerformance optimization",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wiKPr",
+                  "name": "s2right",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "B3wU4",
+                      "name": "s2rh",
+                      "fill": "$foreground-muted",
+                      "content": "COMMON USE CASES",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "1Gbp5",
+                      "name": "s2rb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Blue screen errors\nNetwork connectivity drops\nApplication crashes\nStartup failures",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vYCFv",
+          "name": "s3",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "rSzBu",
+              "name": "s3label",
+              "fill": "$foreground-muted",
+              "content": "03",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "mJwkP",
+              "name": "s3title",
+              "fill": "$foreground-primary",
+              "content": "SECURITY SUPPORT",
+              "fontFamily": "Anton",
+              "fontSize": 64
+            },
+            {
+              "type": "text",
+              "id": "wx5io",
+              "name": "s3desc",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Firewall configuration, antivirus management, and baseline security measures to protect your systems and data.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 17
+            },
+            {
+              "type": "frame",
+              "id": "a3gJj",
+              "name": "s3cols",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t0U0B",
+                  "name": "s3left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YlkJ1",
+                      "name": "s3lh",
+                      "fill": "$foreground-muted",
+                      "content": "WHAT YOU GET",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "ziEgw",
+                      "name": "s3lb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Firewall setup and monitoring\nAntivirus deployment\nSecurity audits and recommendations\nData backup verification",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "90S9F",
+                  "name": "s3right",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f6WdC",
+                      "name": "s3rh",
+                      "fill": "$foreground-muted",
+                      "content": "COMMON USE CASES",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "tSJqO",
+                      "name": "s3rb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Suspicious email activity\nRansomware prevention\nSecure remote work setup\nCompliance baseline checks",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DaEZN",
+          "name": "s4",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "5KypT",
+              "name": "s4label",
+              "fill": "$foreground-muted",
+              "content": "04",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "rJV4s",
+              "name": "s4title",
+              "fill": "$foreground-primary",
+              "content": "SOFTWARE AND HARDWARE",
+              "fontFamily": "Anton",
+              "fontSize": 64
+            },
+            {
+              "type": "text",
+              "id": "CgqcH",
+              "name": "s4desc",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Installation, updates, and patching for your software and hardware. We keep your tools current and running smoothly.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 17
+            },
+            {
+              "type": "frame",
+              "id": "aP1PT",
+              "name": "s4cols",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PVar2",
+                  "name": "s4left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Eez1c",
+                      "name": "s4lh",
+                      "fill": "$foreground-muted",
+                      "content": "WHAT YOU GET",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "ngToo",
+                      "name": "s4lb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Software installation and licensing\nOS and application updates\nHardware upgrades and replacements\nPatch management",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WWGNL",
+                  "name": "s4right",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HxXDF",
+                      "name": "s4rh",
+                      "fill": "$foreground-muted",
+                      "content": "COMMON USE CASES",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "pOKj1",
+                      "name": "s4rb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "New employee workstation setup\nWindows or macOS upgrades\nPrinter and peripheral installation\nDriver compatibility issues",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "beBb6",
+          "name": "s5",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "4UiKT",
+              "name": "s5label",
+              "fill": "$foreground-muted",
+              "content": "05",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "w0Gml",
+              "name": "s5title",
+              "fill": "$foreground-primary",
+              "content": "USER TRAINING",
+              "fontFamily": "Anton",
+              "fontSize": 64
+            },
+            {
+              "type": "text",
+              "id": "dohq8",
+              "name": "s5desc",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Onboarding and ongoing training sessions to help your team use tools confidently and work more efficiently.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 17
+            },
+            {
+              "type": "frame",
+              "id": "mAZav",
+              "name": "s5cols",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "S57Vd",
+                  "name": "s5left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Qvqcl",
+                      "name": "s5lh",
+                      "fill": "$foreground-muted",
+                      "content": "WHAT YOU GET",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "B6nkP",
+                      "name": "s5lb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "New employee tech onboarding\nGroup training sessions\nOne-on-one coaching\nCustom training materials",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fGu5d",
+                  "name": "s5right",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "owhU8",
+                      "name": "s5rh",
+                      "fill": "$foreground-muted",
+                      "content": "COMMON USE CASES",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "YTm4z",
+                      "name": "s5rb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Office suite proficiency\nCybersecurity awareness\nCloud storage workflows\nNew software rollouts",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sr5Iw",
+          "name": "s6",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "MC1WW",
+              "name": "s6label",
+              "fill": "$foreground-muted",
+              "content": "06",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "QsEdV",
+              "name": "s6title",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "MICROSOFT 365 AND GOOGLE WORKSPACE",
+              "fontFamily": "Anton",
+              "fontSize": 64
+            },
+            {
+              "type": "text",
+              "id": "GEMRb",
+              "name": "s6desc",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Administration and support for cloud productivity platforms. We handle setup, user management, and ongoing maintenance.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 17
+            },
+            {
+              "type": "frame",
+              "id": "PW21V",
+              "name": "s6cols",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XX6rU",
+                  "name": "s6left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hZrC6",
+                      "name": "s6lh",
+                      "fill": "$foreground-muted",
+                      "content": "WHAT YOU GET",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "9qfn8",
+                      "name": "s6lb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Tenant setup and configuration\nUser account management\nEmail and calendar administration\nLicense optimization",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Hl0X3",
+                  "name": "s6right",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "h5acv",
+                      "name": "s6rh",
+                      "fill": "$foreground-muted",
+                      "content": "COMMON USE CASES",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "4wrFg",
+                      "name": "s6rb",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Migrating to Microsoft 365\nShared mailbox setup\nTeams and SharePoint configuration\nGoogle Workspace admin tasks",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "H1g1P",
+          "name": "cta",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 120,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "VKut6",
+              "name": "ctaTitle",
+              "fill": "$foreground-primary",
+              "content": "GET STARTED",
+              "fontFamily": "Anton",
+              "fontSize": 80,
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "gDQGM",
+              "name": "ctaSub",
+              "fill": "$foreground-secondary",
+              "content": "Ready to simplify your IT? Get in touch today.",
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 17
+            },
+            {
+              "type": "text",
+              "id": "zeKPc",
+              "name": "ctaLink",
+              "fill": "$foreground-primary",
+              "content": "CONTACT US →",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TDELe",
+          "name": "footer",
+          "width": "fill_container",
+          "fill": "$foreground-dark",
+          "padding": [
+            24,
+            60
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "s0Zbz",
+              "name": "footerText",
+              "fill": "$foreground-muted",
+              "content": "© 2026 R & S Technologies",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "icCCK",
+      "x": 6500,
+      "y": 0,
+      "name": "FAQ Page",
+      "width": 1280,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "LDVTa",
+          "name": "nav",
+          "width": "fill_container",
+          "fill": "$foreground-dark",
+          "padding": [
+            20,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "r4IWJ",
+              "name": "logo",
+              "fill": "$foreground-inverse",
+              "content": "R & S TECHNOLOGIES",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "kKXiT",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EYgUg",
+                  "name": "link1",
+                  "fill": "$foreground-muted",
+                  "content": "HOME",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "LtqLE",
+                  "name": "link2",
+                  "fill": "$foreground-muted",
+                  "content": "ABOUT",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "RD8OD",
+                  "name": "link3",
+                  "fill": "$foreground-muted",
+                  "content": "SERVICES",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "UjqGq",
+                  "name": "link4",
+                  "fill": "$foreground-inverse",
+                  "content": "FAQ",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "TuaX6",
+                  "name": "link5",
+                  "fill": "$foreground-muted",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "letterSpacing": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VKIVR",
+          "name": "hero",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            120,
+            48,
+            100,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "oUo9m",
+              "name": "heroTitle",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "FREQUENTLY\nASKED QUESTIONS",
+              "lineHeight": 0.95,
+              "fontFamily": "Anton",
+              "fontSize": 96
+            },
+            {
+              "type": "text",
+              "id": "HsBQ2",
+              "name": "heroSub",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Quick answers to help you understand how our support works.",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d3uSF",
+          "name": "faqSection",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "padding": [
+            0,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "kGyBN",
+              "name": "faq1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "N9ukE",
+                  "name": "q1",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "WHAT HOURS DO YOU PROVIDE SUPPORT?",
+                  "fontFamily": "Anton",
+                  "fontSize": 36
+                },
+                {
+                  "type": "text",
+                  "id": "l4Eao",
+                  "name": "a1",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "We provide support during standard business hours, Monday through Friday. For emergency situations, we evaluate requests on a case-by-case basis to ensure critical issues are addressed promptly.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vJ5eO",
+              "name": "faq2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SiWOq",
+                  "name": "q2",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "DO YOU OFFER REMOTE AND ON-SITE HELP?",
+                  "fontFamily": "Anton",
+                  "fontSize": 36
+                },
+                {
+                  "type": "text",
+                  "id": "flQTl",
+                  "name": "a2",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Yes. We offer remote assistance via phone, email, and remote desktop tools for quick resolution. When the situation calls for it, we also provide on-site support to handle more hands-on requirements.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sJ6CT",
+              "name": "faq3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PTpEy",
+                  "name": "q3",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "WHICH PLATFORMS DO YOU SUPPORT?",
+                  "fontFamily": "Anton",
+                  "fontSize": 36
+                },
+                {
+                  "type": "text",
+                  "id": "pg9Bh",
+                  "name": "a3",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "We support a wide range of platforms including Windows, macOS, Microsoft 365, and Google Workspace. Our team is experienced with diverse environments and can adapt to your specific technology stack.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j3NG9",
+              "name": "faq4",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XMJfr",
+                  "name": "q4",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "HOW QUICKLY CAN I EXPECT A RESPONSE?",
+                  "fontFamily": "Anton",
+                  "fontSize": 36
+                },
+                {
+                  "type": "text",
+                  "id": "dZUfU",
+                  "name": "a4",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Response times vary depending on the complexity of the issue. We aim to respond as quickly as possible and keep you informed with clear updates throughout the resolution process.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3hcvr",
+              "name": "faq5",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DohBH",
+                  "name": "q5",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "DO YOU PROVIDE TRAINING?",
+                  "fontFamily": "Anton",
+                  "fontSize": 36
+                },
+                {
+                  "type": "text",
+                  "id": "buUUj",
+                  "name": "a5",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Yes. We offer onboarding sessions for new setups as well as recurring training to help your team stay productive and secure. Topics include productivity tools, cybersecurity awareness, and best practices.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Qp495",
+          "name": "cta",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "padding": [
+            100,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "OSfGN",
+              "name": "ctaText",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "HAVE MORE QUESTIONS?\nCONTACT US →",
+              "lineHeight": 1.1,
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 48
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "P1ZEU",
+          "name": "footer",
+          "width": "fill_container",
+          "fill": "$foreground-dark",
+          "padding": [
+            24,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "DT2NC",
+              "name": "footerText",
+              "fill": "$foreground-muted",
+              "content": "© 2026 R & S Technologies",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "KpcV6",
+      "x": 7900,
+      "y": 0,
+      "name": "Contact Page",
+      "width": 1280,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "EWhui",
+          "name": "Nav",
+          "width": "fill_container",
+          "height": 60,
+          "fill": "$surface-dark",
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Oxf32",
+              "fill": "$foreground-inverse",
+              "content": "R & S TECHNOLOGIES",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600",
+              "letterSpacing": 3
+            },
+            {
+              "type": "frame",
+              "id": "b6J9a",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dn56p",
+                  "opacity": 0.6,
+                  "fill": "$foreground-inverse",
+                  "content": "Home",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "kaPIH",
+                  "opacity": 0.6,
+                  "fill": "$foreground-inverse",
+                  "content": "Services",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "yxaRs",
+                  "opacity": 0.6,
+                  "fill": "$foreground-inverse",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "bDs1O",
+                  "opacity": 0.6,
+                  "fill": "$foreground-inverse",
+                  "content": "FAQ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Fargr",
+                  "fill": "$foreground-inverse",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "wHopk",
+                  "opacity": 0.6,
+                  "fill": "$foreground-inverse",
+                  "content": "Ticket Desk",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vebCQ",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 560,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1775526696441.png",
+            "mode": "fill"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "UT7Ox",
+              "x": 0,
+              "y": 0,
+              "name": "heroOverlay",
+              "width": 1280,
+              "height": 560,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#1A1A1A00",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1A1A1ACC",
+                    "position": 0.6
+                  },
+                  {
+                    "color": "#1A1A1AEE",
+                    "position": 1
+                  }
+                ]
+              },
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "IX0cz",
+              "x": 48,
+              "y": 40,
+              "name": "heroCaption",
+              "opacity": 0.7,
+              "fill": "$foreground-inverse",
+              "content": "CONTACT",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "9R3YF",
+              "x": 48,
+              "y": 200,
+              "name": "heroTitle",
+              "fill": "$foreground-inverse",
+              "content": "GET IN\nTOUCH",
+              "lineHeight": 0.9,
+              "fontFamily": "Anton",
+              "fontSize": 120
+            },
+            {
+              "type": "text",
+              "id": "r4oKx",
+              "x": 48,
+              "y": 480,
+              "name": "heroSub",
+              "opacity": 0.8,
+              "fill": "$foreground-inverse",
+              "content": "Reach out anytime. We respond within 24 hours\nwith clear next steps and practical support.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 18
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mFDJh",
+          "name": "Contact Info",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "padding": [
+            64,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "YWRsB",
+              "name": "leftLabel",
+              "width": 200,
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hUczT",
+                  "fill": "$foreground-secondary",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PXQjB",
+              "name": "centerInfo",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u3fyt",
+                  "fill": "$foreground-primary",
+                  "content": "Tyson Joseph, Owner",
+                  "fontFamily": "Geist",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "M3Ag2",
+                  "fill": "$foreground-primary",
+                  "content": "757-977-4364",
+                  "fontFamily": "Geist",
+                  "fontSize": 16
+                },
+                {
+                  "type": "text",
+                  "id": "6lXbA",
+                  "fill": "$foreground-primary",
+                  "content": "tysondjoseph@icloud.com",
+                  "fontFamily": "Geist",
+                  "fontSize": 16
+                },
+                {
+                  "type": "text",
+                  "id": "Og4FC",
+                  "fill": "$foreground-secondary",
+                  "content": "Hampton Roads / Williamsburg",
+                  "fontFamily": "Geist",
+                  "fontSize": 16
+                },
+                {
+                  "type": "text",
+                  "id": "osmsI",
+                  "fill": "$foreground-secondary",
+                  "content": "Hours upon request and availability",
+                  "fontFamily": "Geist",
+                  "fontSize": 16
+                },
+                {
+                  "type": "text",
+                  "id": "sX971",
+                  "fill": "$foreground-secondary",
+                  "content": "Response within 24 hours",
+                  "fontFamily": "Geist",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NkgDu",
+              "name": "rightLink",
+              "width": 200,
+              "layout": "vertical",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kb38R",
+                  "fill": "$foreground-primary",
+                  "content": "Ticket Desk →",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "U1CFD",
+          "name": "Form Heading",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "padding": [
+            80,
+            48,
+            40,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "eeZoH",
+              "fill": "$foreground-primary",
+              "content": "SUBMIT A\nSUPPORT TICKET",
+              "lineHeight": 0.9,
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 96
+            },
+            {
+              "type": "text",
+              "id": "iIUkQ",
+              "fill": "$foreground-secondary",
+              "content": "If you are experiencing a technical issue, complete the form below.",
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 17
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "W4TEY",
+          "name": "Form",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            0,
+            160,
+            80,
+            160
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "FZu1M",
+              "name": "row1",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wwXRz",
+                  "name": "nameF",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xjZfg",
+                      "fill": "$foreground-secondary",
+                      "content": "FULL NAME",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hAnCp",
+                      "name": "nameIn",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "$surface-white",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-color"
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "4h2Ii",
+                          "fill": "$foreground-muted",
+                          "content": "Enter your full name",
+                          "fontFamily": "Geist",
+                          "fontSize": 16
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mn780",
+                  "name": "phoneF",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NsGyJ",
+                      "fill": "$foreground-secondary",
+                      "content": "PHONE NUMBER",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "frame",
+                      "id": "m8y5J",
+                      "name": "phoneIn",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "$surface-white",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-color"
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8HFUb",
+                          "fill": "$foreground-muted",
+                          "content": "Enter phone number",
+                          "fontFamily": "Geist",
+                          "fontSize": 16
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VrDlZ",
+              "name": "emailF",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZYEGL",
+                  "fill": "$foreground-secondary",
+                  "content": "EMAIL ADDRESS",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "IM8ar",
+                  "name": "emailIn",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$surface-white",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-color"
+                  },
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FAGH7",
+                      "fill": "$foreground-muted",
+                      "content": "Enter your email address",
+                      "fontFamily": "Geist",
+                      "fontSize": 16
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5b2lX",
+              "name": "row2",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KDph6",
+                  "name": "deviceF",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rsV4O",
+                      "fill": "$foreground-secondary",
+                      "content": "DEVICE TYPE",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rSCBm",
+                      "name": "deviceIn",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "$surface-white",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-color"
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qChZW",
+                          "fill": "$foreground-muted",
+                          "content": "Select a device",
+                          "fontFamily": "Geist",
+                          "fontSize": 16
+                        },
+                        {
+                          "type": "text",
+                          "id": "pr4mE",
+                          "fill": "$foreground-secondary",
+                          "content": "▾",
+                          "fontFamily": "Geist",
+                          "fontSize": 16
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3koSD",
+                  "name": "prioF",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2tML5",
+                      "fill": "$foreground-secondary",
+                      "content": "PRIORITY LEVEL",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vauN2",
+                      "name": "prioIn",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "$surface-white",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-color"
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PYFpC",
+                          "fill": "$foreground-muted",
+                          "content": "Select priority",
+                          "fontFamily": "Geist",
+                          "fontSize": 16
+                        },
+                        {
+                          "type": "text",
+                          "id": "JQPH6",
+                          "fill": "$foreground-secondary",
+                          "content": "▾",
+                          "fontFamily": "Geist",
+                          "fontSize": 16
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RgODy",
+              "name": "catF",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VbDvm",
+                  "fill": "$foreground-secondary",
+                  "content": "ISSUE CATEGORY",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "YhRVB",
+                  "name": "catIn",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$surface-white",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-color"
+                  },
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "93xeY",
+                      "fill": "$foreground-muted",
+                      "content": "Select issue category",
+                      "fontFamily": "Geist",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "H5C2B",
+                      "fill": "$foreground-secondary",
+                      "content": "▾",
+                      "fontFamily": "Geist",
+                      "fontSize": 16
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "17rpr",
+              "name": "fileF",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "N7q5X",
+                  "fill": "$foreground-secondary",
+                  "content": "UPLOAD PICTURE OF ISSUE",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "XQgAV",
+                  "name": "fileIn",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$surface-white",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-color"
+                  },
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k3QjM",
+                      "fill": "$foreground-muted",
+                      "content": "Choose file...",
+                      "fontFamily": "Geist",
+                      "fontSize": 16
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "szpZo",
+              "name": "notesF",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4EwO7",
+                  "fill": "$foreground-secondary",
+                  "content": "ADDITIONAL NOTES",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "rKHSl",
+                  "name": "notesIn",
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": "$surface-white",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-color"
+                  },
+                  "layout": "vertical",
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LVxlq",
+                      "fill": "$foreground-muted",
+                      "content": "Describe your issue in detail...",
+                      "fontFamily": "Geist",
+                      "fontSize": 16
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "E1iZx",
+              "name": "Submit Button",
+              "width": 240,
+              "height": 56,
+              "fill": "$surface-dark",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "je1ll",
+                  "fill": "$foreground-inverse",
+                  "content": "SUBMIT TICKET",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mD6su",
+          "name": "Footer",
+          "width": "fill_container",
+          "height": 60,
+          "fill": "$surface-dark",
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "nYe7d",
+              "opacity": 0.6,
+              "fill": "$foreground-inverse",
+              "content": "© 2026 R & S Technologies. All rights reserved.",
+              "fontFamily": "Inter",
+              "fontSize": 12
+            },
+            {
+              "type": "text",
+              "id": "AKKxt",
+              "opacity": 0.4,
+              "fill": "$foreground-inverse",
+              "content": "Empowering Your Digital Journey",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-blue": {
+      "type": "color",
+      "value": "#3B82C4FF"
+    },
+    "accent-blue-light": {
+      "type": "color",
+      "value": "#EBF3FBFF"
+    },
+    "accent-blue-soft": {
+      "type": "color",
+      "value": "#1A3A5CFF"
+    },
+    "border-color": {
+      "type": "color",
+      "value": "#DDE4ECFF"
+    },
+    "error": {
+      "type": "color",
+      "value": "#F87171FF"
+    },
+    "foreground-dark": {
+      "type": "color",
+      "value": "#0B1621FF"
+    },
+    "foreground-muted": {
+      "type": "color",
+      "value": "#8A9BB0FF"
+    },
+    "foreground-primary": {
+      "type": "color",
+      "value": "#1E3A5FFF"
+    },
+    "foreground-secondary": {
+      "type": "color",
+      "value": "#4A6A8AFF"
+    },
+    "radius-full": {
+      "type": "number",
+      "value": 9999
+    },
+    "radius-lg": {
+      "type": "number",
+      "value": 16
+    },
+    "radius-xl": {
+      "type": "number",
+      "value": 24
+    },
+    "spacing-lg": {
+      "type": "number",
+      "value": 24
+    },
+    "spacing-md": {
+      "type": "number",
+      "value": 16
+    },
+    "spacing-sm": {
+      "type": "number",
+      "value": 8
+    },
+    "spacing-xl": {
+      "type": "number",
+      "value": 32
+    },
+    "success": {
+      "type": "color",
+      "value": "#34D399FF"
+    },
+    "surface-card": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    },
+    "surface-light": {
+      "type": "color",
+      "value": "#F0F4F8FF"
+    },
+    "surface-primary": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    },
+    "surface-secondary": {
+      "type": "color",
+      "value": "#F5F7FAFF"
+    },
+    "surface-white": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    },
+    "warning": {
+      "type": "color",
+      "value": "#FBBF24FF"
+    },
+    "foreground-inverse": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    },
+    "radius": {
+      "type": "number",
+      "value": 0
+    },
+    "surface-dark": {
+      "type": "color",
+      "value": "#1E3A5FFF"
+    },
+    "accent-green": {
+      "type": "color",
+      "value": "#3DA66FFF"
+    },
+    "accent-green-light": {
+      "type": "color",
+      "value": "#EDF7F1FF"
+    },
+    "accent-orange": {
+      "type": "color",
+      "value": "#E8833AFF"
+    },
+    "accent-orange-light": {
+      "type": "color",
+      "value": "#FEF3EAFF"
+    },
+    "radius-md": {
+      "type": "number",
+      "value": 10
+    },
+    "surface-warm": {
+      "type": "color",
+      "value": "#FFF8F0FF"
+    }
+  }
+}

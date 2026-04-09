@@ -1,143 +1,192 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - R & S Technologies</title>
+    <meta name="description"
+        content="Contact R &amp; S Technologies for IT support in Hampton Roads and Williamsburg. Call, email, or send a support request online.">
+    <title>Contact - R &amp; S Technologies</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<header>
-    <h1>Contact Us</h1>
-</header>
+    <header>
+        <p class="brand-mark">R &amp; S Technologies</p>
+        <h1>Contact</h1>
+        <p class="header-note">Call, email, or send a support request and we will respond within 24 hours.</p>
+    </header>
 
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+    <nav aria-label="Primary">
+        <div class="nav-inner">
+            <ul id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="helpdesk.html">Ticket Desk</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu"
+                aria-label="Toggle navigation">&#9776;</button>
+        </div>
+    </nav>
 
-<main>
+    <main id="main-content">
+        <section class="page-intro animation-fade-up">
+            <h2>Contact and support requests</h2>
+            <p>Use the contact details below or send a short support request form so we can respond with the right next step.</p>
+        </section>
 
-<section id="contact">
-  <h2>Contact R & S Technologies</h2>
-  <p><strong>Owner:</strong> Tyson Joseph</p>
-  <p><strong>Phone:</strong> 757-977-4364</p>
-  <p><strong>Email:</strong> tysondjoseph@icloud.com</p>
-  <p><strong>Business Hours:</strong> Upon Request and Availability</p>
-  <p><strong>Service Area:</strong> Hampton Roads / Williamsburg</p>
-  <p><strong>Response Time:</strong> Within 24 Hours</p>
-  <p>If you are experiencing a technical issue, please complete the support request form below.</p>
-</section>
+        <div class="contact-layout">
+            <section id="contact" class="contact-card" aria-labelledby="contact-heading">
+                <h2 id="contact-heading">Get in Touch</h2>
+                <p>R &amp; S Technologies supports small businesses and home users with responsive, practical IT help.</p>
+                <div class="contact-meta">
+                    <p><strong>Phone:</strong> <a href="tel:7579774364">757-977-4364</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:tysondjoseph@icloud.com">tysondjoseph@icloud.com</a></p>
+                    <p><strong>Service Area:</strong> Hampton Roads / Williamsburg</p>
+                    <p><strong>Response Time:</strong> Within 24 hours</p>
+                </div>
+                <div class="contact-note">
+                    <p><strong>Support note:</strong> Tell us what device or platform is involved, what changed, and how we can best reach you back.</p>
+                </div>
+            </section>
 
-<section id="support-ticket">
-  <h2>Submit a Support Ticket</h2>
+            <section id="support-ticket" class="form-card" aria-labelledby="ticket-heading">
+                <h2 id="ticket-heading">Send a Support Request</h2>
+                <form id="ticketForm">
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" name="name" autocomplete="name" required>
 
-  <form id="ticketForm">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="tel" name="phone" autocomplete="tel" required>
 
-    <label>Full Name</label>
-    <input type="text" name="name" required>
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email" autocomplete="email" required>
 
-    <label>Phone Number</label>
-    <input type="tel" name="phone" required>
+                    <label for="device">Device or Platform</label>
+                    <select id="device" name="device" required>
+                        <option value="">Select one</option>
+                        <option>Desktop</option>
+                        <option>Laptop</option>
+                        <option>Phone</option>
+                        <option>Printer or Scanner</option>
+                        <option>Microsoft 365</option>
+                        <option>Google Workspace</option>
+                        <option>Other</option>
+                    </select>
 
-    <label>Email Address</label>
-    <input type="email" name="email" required>
+                    <label for="priority">Priority Level</label>
+                    <select id="priority" name="priority" required>
+                        <option value="">Select priority</option>
+                        <option>Low</option>
+                        <option>Medium</option>
+                        <option>High</option>
+                    </select>
 
-    <label>Device Type</label>
-    <select name="device" required>
-      <option value="">Select a device</option>
-      <option>Phone</option>
-      <option>Laptop</option>
-      <option>Desktop</option>
-      <option>Printer</option>
-      <option>Scanner</option>
-    </select>
+                    <label for="category">Issue Category</label>
+                    <select id="category" name="category" required>
+                        <option value="">Select category</option>
+                        <option>Help Desk Support</option>
+                        <option>Troubleshooting</option>
+                        <option>Security Support</option>
+                        <option>Software and Hardware Support</option>
+                        <option>User Training</option>
+                        <option>Microsoft 365 and Google Workspace Help</option>
+                    </select>
 
-    <label>Priority Level</label>
-    <select name="priority" required>
-      <option value="">Select priority</option>
-      <option>Low</option>
-      <option>High</option>
-    </select>
+                    <label for="notes">Describe the Issue</label>
+                    <textarea id="notes" name="notes" rows="6" placeholder="Tell us what is happening, when it started, and any steps already tried."></textarea>
 
-    <label>Issue Category</label>
-    <select name="category" required>
-      <option value="">Select issue category</option>
-      <option>Networking Issue</option>
-      <option>Software Issue</option>
-      <option>Hardware Issue</option>
-      <option>Printer / Scanner Issue</option>
-      <option>Email / Account Access</option>
-      <option>Security Concern</option>
-      <option>Setup / Installation</option>
-      <option>General Support</option>
-    </select>
+                    <button type="submit">Submit Request</button>
+                    <p id="ticketStatus" class="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </section>
+        </div>
+    </main>
 
-    <label>Upload Picture of Issue</label>
-    <input type="file" name="file" accept="image/*">
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <p class="brand-mark">R &amp; S Technologies</p>
+                <p>Empowering Your Digital Journey: From Setup to Success. IT support for small businesses and home users.</p>
+            </div>
+            <nav class="footer-col" aria-label="Footer navigation">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="helpdesk.html">Ticket Desk</a></li>
+                </ul>
+            </nav>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Tyson Joseph</p>
+                <p><a href="tel:7579774364">757-977-4364</a></p>
+                <p><a href="mailto:tysondjoseph@icloud.com">tysondjoseph@icloud.com</a></p>
+                <p>Hampton Roads / Williamsburg</p>
+                <p>Response time: within 24 hours</p>
+            </div>
+        </div>
+        <p class="footer-copy">&copy; 2026 R &amp; S Technologies. All rights reserved.</p>
+    </footer>
 
-    <label>Additional Notes</label>
-    <textarea name="notes" rows="6"></textarea>
+    <script>
+        document.getElementById('ticketForm').addEventListener('submit', async function (event) {
+            event.preventDefault();
 
-    <button type="submit">Submit Ticket</button>
+            const form = event.target;
+            const status = document.getElementById('ticketStatus');
+            const submitButton = form.querySelector('button[type="submit"]');
+            const formData = new FormData(form);
 
-  </form>
-</section>
+            const payload = {
+                name: formData.get('name'),
+                phone: formData.get('phone'),
+                email: formData.get('email'),
+                device: formData.get('device'),
+                priority: formData.get('priority'),
+                category: formData.get('category'),
+                notes: formData.get('notes')
+            };
 
-</main>
+            try {
+                submitButton.disabled = true;
+                status.textContent = 'Sending your request...';
 
-<footer>
-    <p>&copy; 2026 R & S Technologies. All rights reserved.</p>
-</footer>
+                const response = await fetch('/api/ticket', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
 
-<script>
-document.getElementById('ticketForm').addEventListener('submit', async function (e) {
-  e.preventDefault();
+                const result = await response.json();
 
-  const form = e.target;
-  const formData = new FormData(form);
+                if (response.ok) {
+                    status.textContent = 'Your request was submitted successfully. We will follow up within 24 hours.';
+                    form.reset();
+                    return;
+                }
 
-  const data = {
-    name: formData.get('name'),
-    phone: formData.get('phone'),
-    email: formData.get('email'),
-    device: formData.get('device'),
-    priority: formData.get('priority'),
-    category: formData.get('category'),
-    notes: formData.get('notes')
-  };
+                status.textContent = result.message || 'We could not submit the request right now. Please call or email us directly.';
+            } catch (error) {
+                console.error(error);
+                status.textContent = 'We could not submit the request right now. Please call or email us directly.';
+            } finally {
+                submitButton.disabled = false;
+            }
+        });
+    </script>
 
-  try {
-    const response = await fetch('/api/ticket', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    });
-
-    const result = await response.json();
-
-    if (response.ok) {
-      alert('Your support ticket was submitted successfully. Please check your email for confirmation.');
-      form.reset();
-    } else {
-      alert('There was a problem submitting your ticket. Please try again.');
-      console.error(result);
-    }
-  } catch (error) {
-    alert('There was a problem submitting your ticket. Please try again.');
-    console.error(error);
-  }
-});
-</script>
-
-
+    <script src="nav.js"></script>
 </body>
+
 </html>

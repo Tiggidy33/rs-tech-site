@@ -1,128 +1,145 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - R & S Technologies</title>
+    <meta name="description"
+        content="IT support services from R &amp; S Technologies including help desk support, troubleshooting, security support, software and hardware support, user training, and Microsoft 365 or Google Workspace help.">
+    <title>Services - R &amp; S Technologies</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
     <header>
-        <h1>Our Services</h1>
+        <p class="brand-mark">R &amp; S Technologies</p>
+        <h1>Services</h1>
+        <p class="header-note">Simple, practical IT support built around real problems and clear outcomes.</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+
+    <nav aria-label="Primary">
+        <div class="nav-inner">
+            <ul id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="helpdesk.html">Ticket Desk</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu"
+                aria-label="Toggle navigation">&#9776;</button>
+        </div>
     </nav>
-    <main>
-        <section>
-            <div class="service">
-                <h2>Help Desk Support</h2>
-                <p>Phone and email support for user requests. Customers get prompt assistance for IT issues.</p>
-                <p><strong>Common use cases:</strong> Answering questions, guiding users through basic fixes.</p>
-            </div>
-            <div class="service">
-                <h2>Troubleshooting</h2>
-                <p>Diagnosis and fixes for software, hardware, and connectivity issues. Customers get quick resolution to restore functionality.</p>
-                <p><strong>Common use cases:</strong> Fixing corrupted drivers, resolving network problems.</p>
-            </div>
-            <div class="service">
-                <h2>Security Support</h2>
-                <p>Monitoring and managing firewalls, antivirus, and intrusion detection. Customers get enhanced data protection and role-based access control.</p>
-                <p><strong>Common use cases:</strong> Preventing cyber threats, securing sensitive data.</p>
-            </div>
-            <div class="service">
-                <h2>Software and Hardware Support</h2>
-                <p>Installation, updates, patch management, and compatibility checks. Customers get optimized systems and repair assistance.</p>
-                <p><strong>Common use cases:</strong> Setting up new hardware, updating software for security.</p>
-            </div>
-            <div class="service">
-                <h2>User Training</h2>
-                <p>Onboarding and ongoing sessions for efficiency and cybersecurity awareness. Customers get better tech management skills.</p>
-                <p><strong>Common use cases:</strong> Training employees on new tools, awareness sessions.</p>
-            </div>
-            <div class="service">
-                <h2>Microsoft 365 and Google Workspace Help</h2>
-                <p>Administration for communication and security. Customers get managed collaboration tools.</p>
-                <p><strong>Common use cases:</strong> Setting up email, configuring security policies.</p>
-            </div>
+
+    <main id="main-content">
+        <section class="page-intro animation-fade-up">
+            <h2>Support that fits the issue in front of you</h2>
+            <p>We support small businesses and home users with reliable help across day-to-day requests, urgent problems, security concerns, and cloud productivity tools.</p>
         </section>
+
+        <section class="services-banner animation-fade-up">
+            <img src="images/services.png" alt="R &amp; S Technologies service overview">
+        </section>
+
+        <section class="service-list" aria-label="Service details">
+            <article class="service" id="help-desk">
+                <h2>Help Desk Support</h2>
+                <p>Responsive support for everyday questions, requests, and common issues received by phone, email, or remote tools.</p>
+                <ul>
+                    <li><strong>What customers get:</strong> Clear communication, basic issue handling, and documented follow-up.</li>
+                    <li><strong>Common use cases:</strong> Login issues, account questions, software access problems, and general support requests.</li>
+                </ul>
+            </article>
+
+            <article class="service" id="troubleshooting">
+                <h2>Troubleshooting</h2>
+                <p>Problem diagnosis and repair for software, hardware, and connectivity issues that affect work or everyday use.</p>
+                <ul>
+                    <li><strong>What customers get:</strong> Focused troubleshooting aimed at identifying the cause and restoring stable operation.</li>
+                    <li><strong>Common use cases:</strong> Device errors, internet connection problems, printer issues, and application failures.</li>
+                </ul>
+            </article>
+
+            <article class="service" id="security">
+                <h2>Security Support</h2>
+                <p>Support for baseline protection measures including firewalls, antivirus, and user access controls.</p>
+                <ul>
+                    <li><strong>What customers get:</strong> Practical guidance on safer setup and clearer responses to security concerns.</li>
+                    <li><strong>Common use cases:</strong> Suspicious activity review, account protection help, and support for core security tools.</li>
+                </ul>
+            </article>
+
+            <article class="service" id="software-hardware">
+                <h2>Software and Hardware Support</h2>
+                <p>Support for installing, updating, checking compatibility, and maintaining the devices and software people rely on.</p>
+                <ul>
+                    <li><strong>What customers get:</strong> Help with setup, updates, repair coordination, and more reliable day-to-day use.</li>
+                    <li><strong>Common use cases:</strong> New computer setup, software updates, peripheral issues, and hardware replacement guidance.</li>
+                </ul>
+            </article>
+
+            <article class="service" id="training">
+                <h2>User Training</h2>
+                <p>Training sessions designed to improve confidence, productivity, and cybersecurity awareness.</p>
+                <ul>
+                    <li><strong>What customers get:</strong> Straightforward instruction tailored to the tools and habits they use most.</li>
+                    <li><strong>Common use cases:</strong> New employee onboarding, tool walkthroughs, and cybersecurity awareness refreshers.</li>
+                </ul>
+            </article>
+
+            <article class="service" id="cloud-tools">
+                <h2>Microsoft 365 and Google Workspace Help</h2>
+                <p>Administration and user support for communication and collaboration platforms that power modern teams.</p>
+                <ul>
+                    <li><strong>What customers get:</strong> Help with accounts, permissions, sharing, and everyday platform management.</li>
+                    <li><strong>Common use cases:</strong> Email setup, mailbox access issues, account changes, and collaboration permission problems.</li>
+                </ul>
+            </article>
+        </section>
+
         <section class="cta">
-            <a href="contact.html">Get Started</a>
+            <h2>Not sure which service fits your issue?</h2>
+            <p>Contact us with a short description of the problem and we will point you in the right direction.</p>
+            <div class="cta-actions">
+                <a href="contact.html" class="btn-primary">Contact Us</a>
+                <a href="faq.html" class="btn-secondary">Read the FAQ</a>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2026 R & S Technologies. All rights reserved.</p>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <p class="brand-mark">R &amp; S Technologies</p>
+                <p>Empowering Your Digital Journey: From Setup to Success. IT support for small businesses and home users.</p>
+            </div>
+            <nav class="footer-col" aria-label="Footer navigation">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="helpdesk.html">Ticket Desk</a></li>
+                </ul>
+            </nav>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Tyson Joseph</p>
+                <p><a href="tel:7579774364">757-977-4364</a></p>
+                <p><a href="mailto:tysondjoseph@icloud.com">tysondjoseph@icloud.com</a></p>
+                <p>Hampton Roads / Williamsburg</p>
+                <p>Response time: within 24 hours</p>
+            </div>
+        </div>
+        <p class="footer-copy">&copy; 2026 R &amp; S Technologies. All rights reserved.</p>
     </footer>
+
+    <script src="nav.js"></script>
 </body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - R & S Technologies</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Our Services</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <div class="service">
-                <h2>Help Desk Support</h2>
-                <p>Phone and email support for user requests. Customers get prompt assistance for IT issues.</p>
-                <p><strong>Common use cases:</strong> Answering questions, guiding users through basic fixes.</p>
-            </div>
-            <div class="service">
-                <h2>Troubleshooting</h2>
-                <p>Diagnosis and fixes for software, hardware, and connectivity issues. Customers get quick resolution to restore functionality.</p>
-                <p><strong>Common use cases:</strong> Fixing corrupted drivers, resolving network problems.</p>
-            </div>
-            <div class="service">
-                <h2>Security Support</h2>
-                <p>Monitoring and managing firewalls, antivirus, and intrusion detection. Customers get enhanced data protection and role-based access control.</p>
-                <p><strong>Common use cases:</strong> Preventing cyber threats, securing sensitive data.</p>
-            </div>
-            <div class="service">
-                <h2>Software and Hardware Support</h2>
-                <p>Installation, updates, patch management, and compatibility checks. Customers get optimized systems and repair assistance.</p>
-                <p><strong>Common use cases:</strong> Setting up new hardware, updating software for security.</p>
-            </div>
-            <div class="service">
-                <h2>User Training</h2>
-                <p>Onboarding and ongoing sessions for efficiency and cybersecurity awareness. Customers get better tech management skills.</p>
-                <p><strong>Common use cases:</strong> Training employees on new tools, awareness sessions.</p>
-            </div>
-            <div class="service">
-                <h2>Microsoft 365 and Google Workspace Help</h2>
-                <p>Administration for communication and security. Customers get managed collaboration tools.</p>
-                <p><strong>Common use cases:</strong> Setting up email, configuring security policies.</p>
-            </div>
-        </section>
-        <section class="cta">
-            <a href="contact.html">Get Started</a>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 R & S Technologies. All rights reserved.</p>
-    </footer>
-</body>
->>>>>>> 9396429bc233cf63465dd3fc7b46fc2b15bd8eb4
+
 </html>

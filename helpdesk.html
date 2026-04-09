@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="R &amp; S Technologies Ticket Desk — track support requests, update status, and manage the helpdesk queue.">
+    <title>Ticket Desk — R &amp; S Technologies</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="helpdesk.js"></script>
+</head>
+<body class="helpdesk-page">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header>
+        <p class="brand-mark">R &amp; S Technologies</p>
+        <h1>Ticket Desk</h1>
+        <p class="header-note">Track support requests, update ticket status, and keep every request organized.</p>
+    </header>
+
+    <nav aria-label="Primary">
+        <div class="nav-inner">
+            <ul id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="helpdesk.html" class="active">Ticket Desk</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">&#9776;</button>
+        </div>
+    </nav>
+
+    <main id="main-content">
+
+        <section class="desk-hero">
+            <h2>Helpdesk Queue</h2>
+            <p>This interactive view mirrors a practical helpdesk workflow — readable ticket cards, lightweight filters, and clear status updates to keep every request organized.</p>
+            <a class="desk-jump" href="#new-ticket">Create a New Ticket</a>
+            <div class="desk-stats" id="deskStats" aria-live="polite"></div>
+        </section>
+
+        <section class="desk-controls" aria-label="Ticket controls">
+            <div>
+                <label for="ticketSearch">Search</label>
+                <input id="ticketSearch" type="search" placeholder="Search by name, ticket ID, or summary">
+            </div>
+            <div>
+                <label for="statusFilter">Status</label>
+                <select id="statusFilter">
+                    <option value="all">All statuses</option>
+                    <option value="Open">Open</option>
+                    <option value="In Progress">In Progress</option>
+                    <option value="Awaiting Customer">Awaiting Customer</option>
+                    <option value="Resolved">Resolved</option>
+                </select>
+            </div>
+            <div>
+                <label for="priorityFilter">Priority</label>
+                <select id="priorityFilter">
+                    <option value="all">All priorities</option>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+            <div>
+                <label for="sortTickets">Sort by</label>
+                <select id="sortTickets">
+                    <option value="updated-desc">Recently Updated</option>
+                    <option value="updated-asc">Oldest Updated</option>
+                    <option value="priority-desc">Priority (High to Low)</option>
+                    <option value="priority-asc">Priority (Low to High)</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="desk-layout">
+            <div class="ticket-board" aria-live="polite">
+                <h2>Live Ticket Queue</h2>
+                <div id="ticketList" class="ticket-list"></div>
+                <p id="emptyState" class="ticket-empty" hidden>No tickets match your current filters.</p>
+            </div>
+
+            <aside id="ticketDetail" class="ticket-detail" aria-live="polite">
+                <h2>Ticket Details</h2>
+                <p>Select a ticket to view full details and update status.</p>
+            </aside>
+        </section>
+
+        <section id="new-ticket" class="ticket-create">
+            <h2>Create Ticket</h2>
+            <p>Add a new support request to the queue.</p>
+            <form id="newTicketForm" class="new-ticket-form">
+
+                <label for="requester">Requester Name</label>
+                <input id="requester" name="requester" type="text" required>
+
+                <label for="contactMethod">Contact Information</label>
+                <input id="contactMethod" name="contactMethod" type="text" placeholder="Phone or email" required>
+
+                <label for="ticketCategory">Category</label>
+                <select id="ticketCategory" name="ticketCategory" required>
+                    <option value="">Select category</option>
+                    <option>Help Desk Support</option>
+                    <option>Troubleshooting</option>
+                    <option>Security Support</option>
+                    <option>Software and Hardware Support</option>
+                    <option>User Training</option>
+                    <option>Microsoft 365 and Google Workspace Help</option>
+                </select>
+
+                <label for="ticketPriority">Priority</label>
+                <select id="ticketPriority" name="ticketPriority" required>
+                    <option value="">Select priority</option>
+                    <option>Low</option>
+                    <option>Medium</option>
+                    <option>High</option>
+                </select>
+
+                <label for="ticketSummary">Short Summary</label>
+                <input id="ticketSummary" name="ticketSummary" type="text" required>
+
+                <label for="ticketDescription">Description</label>
+                <textarea id="ticketDescription" name="ticketDescription" rows="5" required></textarea>
+
+                <button type="submit">Add Ticket to Queue</button>
+                <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <p class="brand-mark">R &amp; S Technologies</p>
+                <p>Empowering Your Digital Journey: From Setup to Success. Trusted IT support for small businesses and home users in Hampton Roads and Williamsburg.</p>
+            </div>
+            <nav class="footer-col" aria-label="Footer navigation">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="helpdesk.html">Ticket Desk</a></li>
+                </ul>
+            </nav>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Tyson Joseph</p>
+                <p><a href="tel:7579774364">757-977-4364</a></p>
+                <p><a href="mailto:tysondjoseph@icloud.com">tysondjoseph@icloud.com</a></p>
+                <p>Hampton Roads / Williamsburg</p>
+                <p>Response: Within 24 hours</p>
+            </div>
+        </div>
+        <p class="footer-copy">&copy; 2026 R &amp; S Technologies. All rights reserved.</p>
+    </footer>
+
+    <script src="nav.js"></script>
+</body>
+</html>
